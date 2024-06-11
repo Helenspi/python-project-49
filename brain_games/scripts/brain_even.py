@@ -22,11 +22,11 @@ def even_number():
                 print("Congratulations," + name + "!")
         else:
             if rand_numb % 2 == 0 and answer != 'yes':
-                print(f"'{answer}' is wrong answer ;(."
+                print(f"'{answer}' is wrong answer ;(. "
                       f"Correct answer was 'yes'.\nLet's try again, {name}!")
                 break
             elif rand_numb % 2 != 0 and answer != 'no':
-                print(f"'{answer}' is wrong answer ;(."
+                print(f"'{answer}' is wrong answer ;(. "
                       f"Correct answer was 'no'.\nLet's try again, {name}!")
                 break
 
