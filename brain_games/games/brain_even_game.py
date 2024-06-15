@@ -1,3 +1,4 @@
+
 import random
 
 task = 'Answer "yes" if the number is even, otherwise answer "no".'
@@ -7,9 +8,8 @@ def problem():
     return problem
 
 
-def result():
-    if int(problem()) % 2 == 0:
+def result(problem):
+    if problem % 2 == 0:
         return 'yes'
-    else:
+    if problem % 2 != 0:
         return 'no'
-

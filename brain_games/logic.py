@@ -1,21 +1,24 @@
-from brain_games.games.brain_calc_game import *
-from brain_games.games.brain_even_game import *
+
+import brain_games.games.brain_even_game
+import brain_games.games.brain_calc_game
 import prompt
 
-def game_logic():
+
+def game_logic(module):
     name = prompt.string('May I have your name? ')
     print('Hello,' + name + '!')
-    print(task)
+    print(module.task)
     index = 0
     while index < 3:
-        print(f'Question: {problem()}')
+        x = module.problem()
+        print(f'Question: {x}')
         answer = prompt.string('Your answer: ')
-        if answer == str(result()):
+        if answer == str(module.result(x)):
             print('Correct!')
             index += 1
             if index == 3:
                 print('Congratulations,' + name + '!')
         else:
             print(f"'{answer}' is wrong answer ;(. "
-                  f"Correct answer was '{result()}'.\nLet's try again, {name}!")
+                  f"Correct answer was '{module.result(x)}'.\nLet's try again, {name}!")
             break
