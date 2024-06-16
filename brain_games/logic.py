@@ -1,6 +1,3 @@
-
-import brain_games.games.brain_even_game
-import brain_games.games.brain_calc_game
 import prompt
 
 
@@ -17,8 +14,9 @@ def game_logic(module):
             print('Correct!')
             index += 1
             if index == 3:
-                print('Congratulations,' + name + '!')
+                print('Congratulations, ' + name + '!')
         else:
             print(f"'{answer}' is wrong answer ;(. "
-                  f"Correct answer was '{module.result(x)}'.\nLet's try again, {name}!")
+                  f"Correct answer was '{module.result(x)}'."
+                  f"\nLet's try again, {name}!")
             break

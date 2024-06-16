@@ -1,7 +1,8 @@
-
 import random
 
+
 task = 'Answer "yes" if the number is even, otherwise answer "no".'
+
 
 def problem():
     problem = random.randint(1, 100)
