@@ -3,7 +3,7 @@ import prompt
 
 def game_logic(module):
     name = prompt.string('May I have your name? ')
-    print('Hello,' + name + '!')
+    print('Hello, ' + name + '!')
     print(module.task)
     index = 0
     while index < 3:
