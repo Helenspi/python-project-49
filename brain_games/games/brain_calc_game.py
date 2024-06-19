@@ -1,7 +1,9 @@
+
+
 import random
 
 
-task = 'What is the result of the expression?'
+TASK = 'What is the result of the expression?'
 
 
 def problem():
@@ -9,9 +11,10 @@ def problem():
     rand_numb2 = random.randint(0, 15)
     operator = random.choice(['+', '-', '*'])
     problem = f'{str(rand_numb1)} {operator} {str(rand_numb2)}'
-    return problem
-
-
-def result(problem):
-    result = eval(str(problem))
-    return result
+    if operator == '+':
+        result = rand_numb1 + rand_numb2
+    elif operator == '-':
+        result = rand_numb1 - rand_numb2
+    else:
+        result = rand_numb1 * rand_numb2
+    return problem, result

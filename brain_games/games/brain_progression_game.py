@@ -1,7 +1,7 @@
 import random
 
 
-task = 'What number is missing in the progression?'
+TASK = 'What number is missing in the progression?'
 
 
 def numbers_list():
@@ -19,13 +19,7 @@ def numbers_list():
 def problem():
     list = numbers_list()
     i = random.randint(4, 7)
+    result = list[i]
     list[i] = '..'
     string_numbers = ' '.join(map(str, list))
-    return string_numbers
-
-
-def result(problem):
-    result_list = problem.split()
-    i = result_list.index('..')
-    result = (int(result_list[i + 1]) + int(result_list[i - 1])) // 2
-    return result
+    return string_numbers, result
