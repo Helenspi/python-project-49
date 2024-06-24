@@ -9,15 +9,21 @@ ___
 ## Work demonstration
 
  _brain-even game_
- 
+
 [![asciicast](https://asciinema.org/a/o6mA0xqAndiaxNYtHv9hWTBwZ.svg)](https://asciinema.org/a/o6mA0xqAndiaxNYtHv9hWTBwZ)
 
 _brain-calc_
 
 [![asciicast](https://asciinema.org/a/Pl35cZGGm6W9zTARzvLW22JY9.svg)](https://asciinema.org/a/Pl35cZGGm6W9zTARzvLW22JY9)
 
-https://asciinema.org/a/iZGKOyNgB8piYGcduduWD7uHM # brain-gcd
+_brain-gcd_
 
-https://asciinema.org/a/1lQHDJfIeKyYczhzYClCJjmOK # brain-progression
+[![asciicast](https://asciinema.org/a/iZGKOyNgB8piYGcduduWD7uHM.svg)](https://asciinema.org/a/iZGKOyNgB8piYGcduduWD7uHM)
 
-https://asciinema.org/a/lugQ2cXUbA6jwzgQgZmQgOVVd # brain-prime
+_brain-progression_
+
+[![asciicast](https://asciinema.org/a/1lQHDJfIeKyYczhzYClCJjmOK.svg)](https://asciinema.org/a/1lQHDJfIeKyYczhzYClCJjmOK)
+
+_brain-prime_
+
+[![asciicast](https://asciinema.org/a/lugQ2cXUbA6jwzgQgZmQgOVVd.svg)](https://asciinema.org/a/lugQ2cXUbA6jwzgQgZmQgOVVd)
