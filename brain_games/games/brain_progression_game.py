@@ -4,7 +4,7 @@ import random
 TASK = 'What number is missing in the progression?'
 
 
-def numbers_list():
+def create_num_list():
     step = random.randint(2, 13)
     number = random.randint(5, 25)
     list = []
@@ -16,8 +16,8 @@ def numbers_list():
     return list
 
 
-def problem():
-    list = numbers_list()
+def create_task():
+    list = create_num_list()
     i = random.randint(4, 7)
     result = list[i]
     list[i] = '..'

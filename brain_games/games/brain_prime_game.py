@@ -4,15 +4,17 @@ import random
 TASK = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
-def problem():
-    number = random.randint(1, 200)
+def is_prime(num):
     k = 0
-    if number == 1:
-        result = 'no'
-    for i in range(2, number // 2 + 1):
-        if number % i == 0:
+    for i in range(2, num // 2 + 1):
+        if num % i == 0:
             k += 1
-    if k <= 0:
+    return True if k <= 0 else False
+
+
+def create_task():
+    number = random.randint(2, 200)
+    if is_prime(number) is True:
         result = 'yes'
     else:
         result = 'no'
