@@ -5,10 +5,21 @@
 ___
 
 ## Educational progect "Brain-Games"
-> This project was developed to consolidate entry-level skills in the **Python** language. 
+> This project was developed to consolidate entry-level skills of the **Python** language. 
 > There are four math games for practicing mental arithmetic.
 
-## Work demonstration
+## Dependencies
+> - python = 3.10
+> - prompt = 0.4.1
+> - poetry = 0.1.0
+> - flake8 = 7.0.0
+
+## Installation
+1. **Git clone**     _gh repo clone Helenspi/python-project-49_
+2. **Move to program directory**      _cd pyton-project-49_
+3. **Make install**     _Make package-install_
+
+## Demo
 
  _brain-even game_
 
