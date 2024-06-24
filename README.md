@@ -1,16 +1,5 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Helenspi/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Helenspi/python-project-49/actions)
-
-<<<<<<< HEAD
-[![asciicast](https://asciinema.org/a/o6mA0xqAndiaxNYtHv9hWTBwZ.svg)](https://asciinema.org/a/o6mA0xqAndiaxNYtHv9hWTBwZ) # brain-even
-
-[![asciicast](https://asciinema.org/a/Pl35cZGGm6W9zTARzvLW22JY9.svg)](https://asciinema.org/a/Pl35cZGGm6W9zTARzvLW22JY9) # brain-calc
-
-[![asciicast](https://asciinema.org/a/iZGKOyNgB8piYGcduduWD7uHM.svg)](https://asciinema.org/a/iZGKOyNgB8piYGcduduWD7uHM) # brain-gcd
-
-[![asciicast](https://asciinema.org/a/1lQHDJfIeKyYczhzYClCJjmOK.svg)](https://asciinema.org/a/1lQHDJfIeKyYczhzYClCJjmOK) # brain-progression
-
-[![asciicast](https://asciinema.org/a/lugQ2cXUbA6jwzgQgZmQgOVVd.svg)](https://asciinema.org/a/lugQ2cXUbA6jwzgQgZmQgOVVd) # brain-prime
 =======
 [![Test Coverage](https://api.codeclimate.com/v1/badges/6641e3d95bb533e0eb9e/test_coverage)](https://codeclimate.com/github/Helenspi/hexlet-git/test_coverage)
 ___
