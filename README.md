@@ -1,7 +1,7 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Helenspi/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Helenspi/python-project-49/actions)
 
-[![Test Coverage](https://api.codeclimate.com/v1/badges/6641e3d95bb533e0eb9e/test_coverage)](https://codeclimate.com/github/Helenspi/hexlet-git/test_coverage)
+[![Maintainability](https://api.codeclimate.com/v1/badges/532aa3b6bc2e6af230fe/maintainability)](https://codeclimate.com/github/Helenspi/python-project-49/maintainability)
 ___
 
 ## Educational progect "Brain-Games"
