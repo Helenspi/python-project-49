@@ -1,4 +1,6 @@
 import random
+
+
 TASK = 'What is the result of the expression?'
 
 

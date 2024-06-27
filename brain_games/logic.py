@@ -1,9 +1,9 @@
 import prompt
+from brain_games.cli import welcome_user
 
 
 def record_logic(module):
-    name = prompt.string('May I have your name? ')
-    print('Hello, ' + name + '!')
+    name = welcome_user()
     print(module.TASK)
     index = 0
     while index < 3:
