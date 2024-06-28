@@ -3,6 +3,14 @@ from brain_games.cli import welcome_user
 
 
 def record_logic(module):
+    """
+    Function uses welcome_user function for greeting,
+    prints the math task, displays problem and ask
+    the answer. Stop operating if answer was wrong,
+    if answer was correct repeat it 3 times.
+    Arg: games module
+    Returns: no
+    """
     name = welcome_user()
     print(module.TASK)
     index = 0

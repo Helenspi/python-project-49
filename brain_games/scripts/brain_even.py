@@ -4,6 +4,10 @@ from brain_games.logic import record_logic
 
 
 def main():
+    """
+    Function runs record_logic function
+    Arg: even module
+    """
     record_logic(even)
 
 

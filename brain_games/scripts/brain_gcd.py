@@ -4,6 +4,10 @@ from brain_games.logic import record_logic
 
 
 def main():
+    """
+    Function runs record_logic function
+    Arg: gcd module
+    """
     record_logic(gcd)
 
 
